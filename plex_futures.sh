@@ -1,7 +1,7 @@
 #!/bin/sh
 
 PLEXDOCKER=plex
-PLEXDBPATH="/opt/plex/app/Plex Media Server/Plug-in Support/Databases/"
+PLEXDBPATH="/opt/appdata/plex/database/Library/Application Support/Plex Media Server/Plug-in Support/Databases/"
 
 docker stop "${PLEXDOCKER}"
 cp "${PLEXDBPATH}com.plexapp.plugins.library.db" "${PLEXDBPATH}com.plexapp.plugins.library.db.bak"
