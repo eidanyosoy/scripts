@@ -14,6 +14,12 @@ Watches anchor files. If anchors are missing will shut down docker apps like ple
 
 # plex_futures.sh
 Resets date added to plex to now if item was added as a future date. Set DB Path and docker name variables before execution.
+```
+curl https://raw.githubusercontent.com/eidanyosoy/scripts/master/plex_futures.sh | sudo bash
+```
 
 # plex_stuckers.sh
 Resets date added to plex to airdate or premiere date. Set DB Path and docker name variables before execution.
+```
+curl https://raw.githubusercontent.com/eidanyosoy/scripts/master/plex_stuckers.sh | sudo bash
+```
