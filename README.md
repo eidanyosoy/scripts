@@ -28,3 +28,8 @@ This will display your sudo user account if you have one, if you do not it will 
 ```
 curl https://raw.githubusercontent.com/eidanyosoy/scripts/master/useradd.sh | sudo bash
 ```
+# plexstats.sh
+This will display information about your Plex library using its database once you have configured your Plex Paths. If you are using PTS or PGBlitz forks then the path should be set correctly.
+```
+curl https://raw.githubusercontent.com/eidanyosoy/scripts/master/plexstats.sh | sudo bash
+```
