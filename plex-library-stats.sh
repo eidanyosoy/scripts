@@ -1,6 +1,6 @@
 #!/bin/bash
 
-logfile="/home/appdata/plex/plexstats.log"
+logfile="/opt/appdata/plex/logs/plexstats.log"
 db="/opt/appdata/plex/database/Library/Application Support/Plex Media Server/Plug-in Support/Databases/com.plexapp.plugins.library.db"
 echo "$(date "+%d.%m.%Y %T") PLEX LIBRARY STATS" | tee -a $logfile
 echo "Media items in Libraries" | tee -a $logfile
