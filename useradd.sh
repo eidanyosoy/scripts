@@ -13,7 +13,7 @@ if [ $(grep "1000" /etc/passwd | cut -d: -f1 | awk '{print $1}') ]; then
 else
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         echo " ⌛ INFO ! "
-        echo " ⌛ INFO ! Only lowercase and dont empty parts"
+        echo " ⌛ INFO ! Lowercase Only with no spaces"
         echo " ⌛ INFO ! Enter a password (8+ chars)"
         echo " ⌛ INFO ! "
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
