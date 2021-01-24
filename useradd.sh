@@ -13,8 +13,8 @@ if [ $(grep "1000" /etc/passwd | cut -d: -f1 | awk '{print $1}') ]; then
 else
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         echo " ⌛ INFO ! "
-        echo " ⌛ INFO ! Lowercase Only with no spaces"
-        echo " ⌛ INFO ! Enter a password (8+ chars)"
+        echo " ⌛ INFO ! Lowercase Only, No Spaces"
+        echo " ⌛ INFO ! Enter a password (8+ chars but not your name ffs)"
         echo " ⌛ INFO ! "
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
         echo ""
@@ -30,7 +30,7 @@ else
 				usermod -aG docker $username
         echo ""
         echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-        echo " ✅ PASSED ! User has been added to system!"
+        echo " ✅ PASSED ! User bitch ass has been added to system!"
         echo " ✅ PASSED ! Your Username : " $username
         echo " ✅ PASSED ! Your Password : " $password
         echo " ✅ PASSED ! "
@@ -38,7 +38,7 @@ else
 fi
 tee <<-EOF
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-😂 What a Lame name: $(grep "1000" /etc/passwd | cut -d: -f1 | awk '{print $1}')
+😂 What a cuck name: $(grep "1000" /etc/passwd | cut -d: -f1 | awk '{print $1}')
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EOF
 exit 0
