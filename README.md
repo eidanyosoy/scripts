@@ -23,3 +23,8 @@ Resets date added to plex to airdate or premiere date. Set DB Path and docker na
 ```
 curl https://raw.githubusercontent.com/eidanyosoy/scripts/master/plex_stuckers.sh | sudo bash
 ```
+# useradd.sh
+This will display your sudo user account if you have one, if you do not it will allow you to create one.
+```
+curl https://raw.githubusercontent.com/eidanyosoy/scripts/master/useradd.sh | sudo bash
+```
